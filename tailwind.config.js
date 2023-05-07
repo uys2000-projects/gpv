@@ -10,12 +10,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        primary: "#000000",
-        secondary: "#ffffff"
-      }
+      colors: {
+        primary: "#74b9ff",
+        secondary: "#dfe6e9",
+        accent: "#b3b3b3",
+
+        dark: "#000000",
+        "dark-page": "#000000",
+
+        positive: "#21BA45",
+        negative: "#C10015",
+        info: "#31CCEC",
+        warning: "#F2C037",
+      },
     },
   },
   plugins: [],
-}
-
+};

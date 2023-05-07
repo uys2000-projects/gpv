@@ -1,6 +1,12 @@
 @layer base {
   body {
-    @apply min-h-screen;
-    @apply bg-primary text-secondary;
+    @apply lg:min-h-screen;
+    @apply bg-secondary text-white;
+  }
+  .page {
+    @apply lg:w-2/3 lg:min-w-[769px] lg:max-w-[1024px] lg:min-h-[50%];
+    @apply lg:m-auto lg:p-5;
+    @apply rounded-md;
+    @apply relative lg:bg-primary;
   }
 }

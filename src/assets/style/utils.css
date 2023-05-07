@@ -1,0 +1,5 @@
+@layer utils {
+  .fit {
+    @apply h-full w-full;
+  }
+}

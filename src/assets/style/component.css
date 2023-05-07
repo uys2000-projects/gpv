@@ -1,0 +1,32 @@
+@layer components {
+  input {
+    @apply px-5 py-3;
+    @apply w-full rounded-lg;
+  }
+  .button,
+  button,
+  button[type="reset"],
+  button[type="submit"] {
+    @apply px-5 py-3;
+    @apply rounded-lg text-center;
+    @apply w-full bg-secondary text-black;
+  }
+
+  .carousel {
+    @apply relative min-h-full min-w-full;
+    perspective: 100;
+  }
+  .carousel > ol {
+    @apply absolute flex overflow-x-hidden;
+    @apply top-0 right-0 bottom-0 left-0;
+    counter-reset: item;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  .carousel > ol > li {
+    @apply relative w-full;
+    flex: 0 0 100%;
+    counter-increment: item;
+    scroll-snap-align: start;
+  }
+}

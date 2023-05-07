@@ -3,4 +3,7 @@
 @import "tailwindcss/utilities";
 
 @import "./fonts.css";
+@import "./icons.css";
+@import "./utils.css";
+@import "./component.css";
 @import "./body.css";

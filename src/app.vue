@@ -1,18 +1,16 @@
 <template>
-  <div>
-    <NuxtLayout :name="mainStore.getLayout">
-      <NuxtPage />
+    <NuxtLayout :name="LayoutStore.Layout">
+        <NuxtPage />
     </NuxtLayout>
-  </div>
 </template>
 
 <script>
 
 export default defineComponent({
-  data() {
-    return {
-      mainStore: useMainStore()
+    data() {
+        return {
+            LayoutStore: useLayoutStore()
+        }
     }
-  }
 })
 </script>
