@@ -13,18 +13,18 @@
   }
 
   .carousel {
-    @apply relative min-h-full min-w-full;
+    @apply relative min-h-full min-w-full p-5 fit;
     perspective: 100;
   }
   .carousel > ol {
     @apply absolute flex overflow-x-hidden;
-    @apply top-0 right-0 bottom-0 left-0;
+    @apply top-0 right-0 bottom-0 left-0 fit;
     counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
   }
   .carousel > ol > li {
-    @apply relative w-full;
+    @apply relative w-full fit;
     flex: 0 0 100%;
     counter-increment: item;
     scroll-snap-align: start;

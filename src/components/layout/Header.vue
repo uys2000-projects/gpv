@@ -7,6 +7,7 @@
                 </RouterLink>
             </div>
             <div class="bg-primary h-fit p-5 text-6xl rounded-b-3xl absolute right-1/2 translate-x-1/2">
+                <a href="/app">to</a>
                 Project Name
             </div>
             <div class="bg-primary w-full text-right h-fit p-5">

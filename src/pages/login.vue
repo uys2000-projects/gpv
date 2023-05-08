@@ -1,6 +1,6 @@
 <template>
     <div class="page flex flex-col">
-        <CommonCarousel>
+        <CommonCarousel class="h-[60vh]">
             <CommonCorauselPage PageId="login">
                 <Login />
             </CommonCorauselPage>

@@ -6,7 +6,7 @@
   .page {
     @apply lg:w-2/3 lg:min-w-[769px] lg:max-w-[1024px] lg:min-h-[50%];
     @apply lg:m-auto lg:p-5;
-    @apply rounded-md;
+    @apply rounded-md flex flex-col;
     @apply relative lg:bg-primary;
   }
 }

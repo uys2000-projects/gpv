@@ -1,6 +1,6 @@
 <template>
     <div class="carousel fit">
-        <ol>
+        <ol ref="slider">
             <slot />
         </ol>
     </div>
